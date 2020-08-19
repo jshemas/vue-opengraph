@@ -13,7 +13,6 @@ const ogs = require('open-graph-scraper');
 export default {
   name: 'app',
   mounted() {
-    const ogs = require('open-graph-scraper');
     const options = { url: 'http://ogp.me/' };
     ogs(options)
       .then((data) => {
