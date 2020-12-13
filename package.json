@@ -11,7 +11,7 @@
     "@popperjs/core": "^2.4.4",
     "core-js": "^3.6.5",
     "jquery": "^3.5.1",
-    "open-graph-scraper": "^4.5.1",
+    "open-graph-scraper-lite": "^1.1.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {

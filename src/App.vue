@@ -6,14 +6,14 @@
 
 <script>
 
-const ogs = require('open-graph-scraper');
-//import ogs from "open-graph-scraper";
-//import OpenGraph from 'open-graph-scraper';
+const ogs = require('open-graph-scraper-lite');
 
 export default {
   name: 'app',
   mounted() {
-    const options = { url: 'http://ogp.me/' };
+    const options = {
+      url: 'http://ogp.me/',
+    };
     ogs(options)
       .then((data) => {
         const { error, result, response } = data;

@@ -1,5 +1,5 @@
 # vue-opengraph
-Test OpenGraph open-graph-scraper in VUE
+Test OpenGraph open-graph-scraper-lite in VUE
 
 # Install and run
 
@@ -10,8 +10,5 @@ Test OpenGraph open-graph-scraper in VUE
 Fails with:
 
 ```
-These dependencies were not found:
-
-* dns in ./node_modules/cacheable-lookup/source/index.js
-* http2 in ./node_modules/http2-wrapper/source/index.js, ./node_modules/http2-wrapper/source/agent.js and 1 other
+Access to fetch at 'http://ogp.me/' from origin 'http://localhost:8080' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
 ```
